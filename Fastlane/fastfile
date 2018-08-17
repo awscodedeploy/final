@@ -1,24 +1,17 @@
 lane :beta do
-increment_build_number
-increment_version_number(
+  increment_build_number
+  increment_version_number(
   bump_type: "major" )
-gym(
+  gym(
     scheme: "final",
     export_options: {
     method: "enterprise"}  )
-end
 
-lane :tests do
   run_tests(devices: ["iPhone 6"],
-  scheme: "final")
-end
+   scheme: "final")
 
-lane :sonartest do
-    sonar
-end
 
-lane :deploy do
-hockey(
+  hockey(
   api_token: "676d0b1a5c4f4d82b069208abfbc84d9",
   ipa: "/Users/devsuri/Documents/final/final.ipa",
   notes: "Changelog",

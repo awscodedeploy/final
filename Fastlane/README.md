@@ -20,21 +20,6 @@ or alternatively using `brew cask install fastlane`
 fastlane beta
 ```
 
-### tests
-```
-fastlane tests
-```
-
-### sonartest
-```
-fastlane sonartest
-```
-
-### deploy
-```
-fastlane deploy
-```
-
 
 ----
 
