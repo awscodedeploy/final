@@ -1,5 +1,11 @@
 lane :beta do
-   sonar
+  scan(
+  scheme: "final",
+  output_directory: "fastlane/test_output/",
+  clean: true,
+  code_coverage: true,
+  device: "iPhone 6",
+)
 
 end
 
