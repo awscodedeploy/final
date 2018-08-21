@@ -17,8 +17,6 @@ run_tests(
     scheme: "final"
 )
 
-sonar
-
 snapshot(
     project: 'final.xcodeproj',
     scheme: 'final',
