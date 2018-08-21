@@ -30,5 +30,8 @@ hockey(
   ipa: "/Users/devsuri/Documents/final/final.ipa",
   notes: "Changelog",
 )
+
+sonar
+
 end
 
