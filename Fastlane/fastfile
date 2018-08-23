@@ -9,15 +9,16 @@ increment_version_number(
     bump_type: "major" 
 )
   
+  
+run_tests(
+    devices: ["iPhone 6"],
+    scheme: "final"
+)
+
 gym(
     scheme: "final",
     export_options: {
     method: "enterprise"}  
-)
-
-run_tests(
-    devices: ["iPhone 6"],
-    scheme: "final"
 )
 
 snapshot(
